@@ -1,10 +1,23 @@
-body{
-    background-color:black;
+h1,footer{
     color:grey;
-    text-align: center;
 }
+body{
+    font-family: 'Courier New', Courier,monospace;
+    background-color:rgba(187,187,187,50);
+    color:rgb();
+    text-align: center;
+    background-image: url(grey-triforce.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: 960px 540px;
+}
+
 h1{
-    background-color:rgb(148, 7, 7);
+    position: sticky;
+    top:0px;
+    left:0px;
+    background-color: rgb(148, 7, 7);
 }
  
 a{
@@ -13,9 +26,6 @@ a{
 
 
 footer{
-    position: sticky;
-    bottom: 0px;
-    left: 0px;
     background-color: rgb(148, 7, 7);
     width: 100%;
 }
