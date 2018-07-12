@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src='fade-in.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
     <title>Projects</title>
 </head>
@@ -19,11 +20,18 @@
         Here is a list of my projects and links to them<br><br>
     </div>
 
-    <div id='lorem'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br><br> Nulla bibendum neque fermentum, pellentesque justo at, vestibulum tellus.<br><br> Phasellus sollicitudin arcu in aliquam volutpat.<br><br> Nullam et blandit massa.<br><br> Ut eleifend lorem id massa euismod, non finibus sapien varius.<br><br> Integer elementum suscipit auctor.<br><br> Sed iaculis, mauris eu luctus aliquam, purus purus vehicula purus, ac tristique diam nisl ac quam.<br><br> Aliquam purus metus, malesuada posuere pharetra sed, viverra et nunc.<br><br> Pellentesque elementum dignissim felis, nec molestie massa auctor sed.<br><br> Mauris aliquam quam eros, sit amet consequat velit pellentesque et.<br><br> In hac habitasse platea dictumst.<br><br> Nunc nec accumsan quam.<br><br> Vestibulum non risus fermentum, sagittis nisi sit amet, accumsan ex. Morbi sit amet lorem velit.<br><br> Duis quis sem tortor.<br><br> Nam posuere quam ac massa tempor, a euismod turpis tincidunt.<br><br> Donec venenatis dictum ipsum, a elementum diam porta quis.<br><br>
+    
+    <div id='list'>
+        <ul>
+            <li><a id='rps' targer='_blank' href='https://goldlink21.github.io/Rock-Paper-Scissors/'>Rock Paper Scissors</a></li>
+            <li><a id='connect' target='_blank' href="https://goldlink21.github.io/Connect-4/">Connect 4</a></li>
+            <li><a id='ttt' target='_blank' href='https://goldlink21.github.io/Tic-tac-toe/'>Tic tac toe</a></li>
+            <li><a id='dice' target='_blank' href='https://goldlink21.github.io/Roll-Dice/'>Dice roll sim</a></li>
+        </ul>
     </div>
-    <div>
-        <a id='rps' targer=='_blank' href='https://goldlink21.github.io/Rock-Paper-Scissors/'>Rock Paper Scissors</a><br>
+
+    <div id='lorem'>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum neque fermentum, pellentesque justo at, vestibulum tellus.<br><br> Phasellus sollicitudin arcu in aliquam volutpat.<br><br> Nullam et blandit massa.<br><br> Ut eleifend lorem id massa euismod, non finibus sapien varius.<br><br> Integer elementum suscipit auctor.<br><br> Sed iaculis, mauris eu luctus aliquam, purus purus vehicula purus, ac tristique diam nisl ac quam.<br><br> Aliquam purus metus, malesuada posuere pharetra sed, viverra et nunc.<br><br> Pellentesque elementum dignissim felis, nec molestie massa auctor sed.<br><br> Mauris aliquam quam eros, sit amet consequat velit pellentesque et.<br><br> In hac habitasse platea dictumst.<br><br> Nunc nec accumsan quam.<br><br> Vestibulum non risus fermentum, sagittis nisi sit amet, accumsan ex. Morbi sit amet lorem velit.<br><br> Duis quis sem tortor.<br><br> Nam posuere quam ac massa tempor, a euismod turpis tincidunt.<br><br> Donec venenatis dictum ipsum, a elementum diam porta quis.<br><br>
     </div>
 
     <footer>
@@ -35,15 +43,11 @@
         &gt;
     </footer>
     <script>
-    var lorem = document.getElementById('lorem')
-    var text = lorem.textContent;
-    var text2='';
-    for(let i=0;i<5;i++){
-        text2+=text;
-    }
-    lorem.textContent+=text2+text2+text2+text2+text2+text2+text2;
-    typeWriter('lorem',1);
+        var lorem = document.getElementById('lorem')
+        var text = lorem.textContent;
+        lorem.textContent+=text+text+text+text+text+text+text;
     
+        typeWriter('lorem',1);
     </script>
 </body>
 </html>

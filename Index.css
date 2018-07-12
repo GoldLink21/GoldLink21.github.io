@@ -1,31 +1,47 @@
 h1,footer{
     color:grey;
+    background-color: rgba(148, 7, 7,0.75);
+    border-radius: 35%;
 }
+
 body{
-    font-family: 'Courier New', Courier,monospace;
+    font-family: 'Philosopher', sans-serif;
     background-color:rgba(187,187,187,50);
-    color:rgb();
     text-align: center;
     background-image: url(grey-triforce.gif);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
     background-size: 960px 540px;
+    padding:6px;
+    margin:5px;
+    font-size: 20px;
+}
+
+p{
+    padding:10px;
 }
 
 h1{
     position: sticky;
     top:0px;
     left:0px;
-    background-color: rgb(148, 7, 7);
 }
  
 a{
-    color:rgb(25, 25, 255);
+    color:rgb(0, 0, 255);
 }
 
+ul{
+    list-style-type: none;
+    border:grey solid 1px;
+    padding:10px;
+}
+
+li:hover{
+    font-size: 125%;
+}
 
 footer{
-    background-color: rgb(148, 7, 7);
     width: 100%;
 }
