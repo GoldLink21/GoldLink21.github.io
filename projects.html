@@ -10,44 +10,37 @@
     <title>Projects</title>
 </head>
 <body>
-    <h1>Projects</h1>
-    <p>
+    <h1 class='top'>Projects</h1>
+    <p id='intro'>
         Many of the projects that I have done have been in Java as that's the language
         I started in with my AP computer programming class, but I now have a fair few
-        that I have now from my time at Nextech.
+        that I have now from my time at Nextech.^^
+        Here is a list of my projects and links to them. They are all part of this website^^
+        Dungeon Crawler was a game which was originally designed by me in Java, but I^
+        worked hard to import it into JavaScript from scratch. All parts of it were^
+        recreated during the time of the Nextech Catapult internship
     </p>
-    <div>
-        Here is a list of my projects and links to them<br><br>
-    </div>
-
-    
     <div id='list'>
         <ul>
-            <li><a id='rps' targer='_blank' href='https://goldlink21.github.io/Rock-Paper-Scissors/'>Rock Paper Scissors</a></li>
-            <li><a id='connect' target='_blank' href="https://goldlink21.github.io/Connect-4/">Connect 4</a></li>
-            <li><a id='ttt' target='_blank' href='https://goldlink21.github.io/Tic-tac-toe/'>Tic tac toe</a></li>
-            <li><a id='dice' target='_blank' href='https://goldlink21.github.io/Roll-Dice/'>Dice roll sim</a></li>
+            <li><a id='rps'href='projects/rps/rps.html'>Rock Paper Scissors</a></li>
+            <li><a id='connect'href="projects/c4/c4.html">Connect 4</a></li>
+            <li><a id='ttt'href='projects/ttt/ttt.html'>Tic tac toe</a></li>
+            <li><a id='dice'href='projects/drs/drs.html'>Dice roll sim</a></li>
+            <li><a id='maze' href="projects/maze/maze.html">Maze</a></li>
+            <li><a id='dc'href='projects/dc/dc.html'>Dungeon Crawler</a></li>
         </ul>
     </div>
-
-    <div id='lorem'>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum neque fermentum, pellentesque justo at, vestibulum tellus.<br><br> Phasellus sollicitudin arcu in aliquam volutpat.<br><br> Nullam et blandit massa.<br><br> Ut eleifend lorem id massa euismod, non finibus sapien varius.<br><br> Integer elementum suscipit auctor.<br><br> Sed iaculis, mauris eu luctus aliquam, purus purus vehicula purus, ac tristique diam nisl ac quam.<br><br> Aliquam purus metus, malesuada posuere pharetra sed, viverra et nunc.<br><br> Pellentesque elementum dignissim felis, nec molestie massa auctor sed.<br><br> Mauris aliquam quam eros, sit amet consequat velit pellentesque et.<br><br> In hac habitasse platea dictumst.<br><br> Nunc nec accumsan quam.<br><br> Vestibulum non risus fermentum, sagittis nisi sit amet, accumsan ex. Morbi sit amet lorem velit.<br><br> Duis quis sem tortor.<br><br> Nam posuere quam ac massa tempor, a euismod turpis tincidunt.<br><br> Donec venenatis dictum ipsum, a elementum diam porta quis.<br><br>
-    </div>
+    <img src='Screen Shot 2018-07-19 at 12.59.33 PM.png' id='code'>
 
     <footer>
         <br>
         <a href='about.html'>&lt;</a>
         <a href="index.html">Main</a>
         <a href="about.html">About</a>
-        Projects
-        &gt;
+        Projects &gt;
     </footer>
     <script>
-        var lorem = document.getElementById('lorem')
-        var text = lorem.textContent;
-        lorem.textContent+=text+text+text+text+text+text+text;
-    
-        typeWriter('lorem',1);
+        typeWriter('intro',8);
     </script>
 </body>
 </html>

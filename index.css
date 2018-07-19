@@ -1,47 +1,60 @@
 h1,footer{
     color:grey;
-    background-color: rgba(148, 7, 7,0.75);
-    border-radius: 35%;
+    background-color:rgba(148, 7, 7,0.75);
+    border-radius:35%;
+}
+
+.top{
+    height:40px;
+}
+
+.down{
+    height:20px;
+}
+
+#me{
+    width:350px;
+    height:525px;
+}
+
+#bikes{
+    width:505px;
+    height:350px;
 }
 
 body{
-    font-family: 'Philosopher', sans-serif;
+    font-family:'Philosopher',sans-serif;
     background-color:rgba(187,187,187,50);
-    text-align: center;
-    background-image: url(grey-triforce.gif);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
-    background-size: 960px 540px;
+    text-align:center;
+    background-image:url(grey-triforce.gif);
+    background-repeat:no-repeat;
+    background-position:top;
+    background-attachment:fixed;
+    background-size:960px 540px;
     padding:6px;
     margin:5px;
-    font-size: 20px;
+    font-size:20px;
 }
 
-p{
-    padding:10px;
-}
+p{padding:10px;}
 
 h1{
-    position: sticky;
+    position:sticky;
     top:0px;
     left:0px;
 }
  
-a{
-    color:rgb(0, 0, 255);
-}
+a{color:rgb(0,0,255);}
 
 ul{
-    list-style-type: none;
+    list-style-type:none;
     border:grey solid 1px;
     padding:10px;
 }
 
-li:hover{
-    font-size: 125%;
-}
+li:hover{font-size:125%;}
+footer{width:100%;}
 
-footer{
-    width: 100%;
+#code{
+    width:400px;
 }
