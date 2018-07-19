@@ -1,0 +1,48 @@
+.tile{
+    width:33px;
+    height:33px;
+    border:1px black solid;
+}
+.row{display:flex;width:320px;}
+#board{width:320px;margin:auto;}
+.wall{background:rgb(78, 78, 78);}
+.path{background:rgb(165, 165, 165);}
+.lava{background:maroon;}
+.lock{background:skyblue;}
+.start{background:white;}
+.end{background:gold;}
+
+#player{
+    width:16px;
+    height:16px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-image: url(player.png);
+    background-position-x:0px; 
+}
+.key{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border:2px black solid;
+    background: goldenrod;
+}
+#back{
+    padding:10px;
+    font-size:20px;
+}
+#info{
+    padding:10px;
+    font-size: 18px;
+    margin:auto;
+    text-align: center;
+}
+body{
+    padding:0px;
+    margin:auto;
+}
+#board{
+    padding:10px;
+    padding-left:20px;
+}

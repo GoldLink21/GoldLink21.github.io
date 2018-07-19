@@ -1,0 +1,60 @@
+.row{
+    display: flex;
+    flex-flow: wrap row;
+}
+.col{
+    background: white;
+    border: black dashed 3px;
+    border-radius: 50%;
+    margin:5px;
+    width:60px;
+    height:60px;
+}
+.col:hover{
+    background:radial-gradient(orange,rgba(0,0,0,0));
+}
+#background{
+    margin: auto;
+    background: blue;
+    border-radius: 10%;
+    width:540px;
+    padding:5px;
+}
+.true{
+    background: red;
+    border: 3px red solid;
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+}
+.false{
+    background: yellow;
+    border: yellow solid 3px;
+    border-radius: 30px;
+    width:60px;
+    height:60px;
+}
+#winDiv{
+    margin:auto;
+    visibility: hidden;
+    position: absolute;
+    width:300px;
+    height:270px;
+    left:130px;
+    top:105px;
+    border-radius: 10%;
+    background: rgba(200,10,10,0.8);
+    text-align: center;
+    font-size: 50px;
+}
+#restart{
+    margin:auto;
+
+    font-size: 25px;
+    width:100px;
+    height:50px;
+}
+#back{
+    padding:10px;
+    font-size:20px;
+}
