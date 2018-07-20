@@ -29,7 +29,7 @@ function init(){
             curCol.addEventListener('click',OnClickEvent)
             curRow.appendChild(curCol);
         }
-        
+          
     }
 }
 init();

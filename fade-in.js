@@ -12,7 +12,7 @@ function typeWriter(id,delay){
         },i*delay);
     } 
 }
-
+ 
 function addTag(id,tagName,textInside){
     var ele=document.getElementById(id);
     ele.innerHTML+='<'+tagName+'>'+textInside+'</'+tagName+'>';

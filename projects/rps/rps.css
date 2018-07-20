@@ -16,13 +16,13 @@ h1{
     border:5px solid blue;
 }
 #rock{
-    background-image:url(rock.png);
+    background-image:url(rocks.png);
 }
 #paper{
-    background-image:url("paper-new.png")
+    background-image:url("paper.png")
 }
 #scissors{
-    background-image:url("scissors-new.png");
+    background-image:url("scissors.png");
 }
 #opponent{
     position:relative;
@@ -36,4 +36,4 @@ body{
     font:'Times New Roman';
     font-size:25px;
     margin:auto;
-}
+} 

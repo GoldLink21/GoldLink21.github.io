@@ -11,7 +11,7 @@ h1,footer{
 .down{
     height:20px;
 }
- 
+   
 #me{
     width:350px;
     height:525px;
@@ -26,7 +26,7 @@ body{
     font-family:'Philosopher',sans-serif;
     background-color:rgba(187,187,187,50);
     text-align:center;
-    background-image:url(grey-triforce.gif);
+    background-image:url(triforce.gif);
     background-repeat:no-repeat;
     background-position:top;
     background-attachment:fixed;

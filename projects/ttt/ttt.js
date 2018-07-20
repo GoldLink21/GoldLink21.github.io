@@ -25,7 +25,7 @@ handleClick=function(event) {
             alert("Player "+currentPlayer+" wins!")
             score[currentPlayer]++;
             resetGame();
-        }
+        } 
         if(checkDraw()){
             alert("Draw!");
             score['Tie']++;

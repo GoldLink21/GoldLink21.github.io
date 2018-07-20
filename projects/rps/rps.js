@@ -20,8 +20,8 @@ function check(calc){
 }
 function convert(rnd){
     switch(rnd){
-        case 0:return"url(rock.png)";
-        case 1:return"url(paper-new.png)";
-        case 2:return"url(scissors-new.png)";
+        case 0:return"url(rocks.png)";
+        case 1:return"url(paper.png)";
+        case 2:return"url(scissors.png)";
     }
-}
+} 

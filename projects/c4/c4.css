@@ -12,7 +12,7 @@
 }
 .col:hover{
     background:radial-gradient(orange,rgba(0,0,0,0));
-}
+} 
 #background{
     margin: auto;
     background: blue;

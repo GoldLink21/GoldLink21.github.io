@@ -10,11 +10,11 @@ body {
     position: absolute; 
     width: 33px; 
     height: 33px; 
-    background: url('Law.png');
+    background: url('PapaLaw.png');
     background-repeat: no-repeat;
     background-size: contain;
     transition: all 0.1s;
-}
+} 
 
 #youWonDiv {
     position: absolute; 

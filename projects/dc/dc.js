@@ -259,7 +259,7 @@ function removeKeys(){
         document.body.removeChild(element);
     });
     player.keys=0;
-}
+} 
 function checkTile(y,x){
     if(x<0||y<0||x>8||y>8)
         return false;

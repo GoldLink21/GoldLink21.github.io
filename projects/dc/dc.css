@@ -18,7 +18,7 @@
     position: absolute;
     top:0px;
     left:0px;
-    background-image: url(player.png);
+    background-image: url(players.png);
     background-position-x:0px; 
 }
 .key{
@@ -32,7 +32,7 @@
     padding:10px;
     font-size:20px;
 }
-#info{
+#info{ 
     padding:10px;
     font-size: 18px;
     margin:auto;

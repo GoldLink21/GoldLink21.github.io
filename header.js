@@ -8,5 +8,5 @@ window.onscroll=()=>{
     }else{
         h1.classList.add('top')
         h1.classList.down('down');
-    }*/ 
+    }*/   
 }

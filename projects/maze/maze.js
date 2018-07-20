@@ -14,7 +14,7 @@ for(let row = 0; row < map.length; row++) {
     const rowDiv = document.createElement("div");
 
     rowDiv.className = "row";
-
+ 
     // START HERE -------------------------------------------------------------/
     // There are currently two things missing from this for loop:
     // - First, we do not mark the start and finish positions with an "S" and an
@@ -96,7 +96,7 @@ function move(dRow, dCol) {
 function checkForWin() {
     if(map[avatarRow][avatarCol] === "F") {
         youWonDiv.classList.remove("hidden");
-        const audio = new Audio('wow.mp3');
+        const audio = new Audio('wows.mp3');
         audio.play();
     }
 }

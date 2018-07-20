@@ -15,3 +15,4 @@ const map = [
     "W       W       W   W",
     "WWWWWWWWWWWWWWWWWWWWW"
 ];
+ 

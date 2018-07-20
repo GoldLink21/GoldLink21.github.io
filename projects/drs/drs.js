@@ -15,4 +15,4 @@ document.getElementById('rollButton').onclick = function(){
     output.textContent='Rolls: ';
     for(let i=0;i<rolls.length;i++)
         i!==rolls.length-1?output.textContent+=(i+2+': '+rolls[i]+', '):output.textContent+=(i+2+': '+rolls[i]);
-}
+} 
