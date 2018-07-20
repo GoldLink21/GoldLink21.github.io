@@ -10,7 +10,7 @@ function typeWriter(id,delay){
                 fade.innerHTML+='</br>';
             }
         },i*delay);
-    }
+    } 
 }
 
 function addTag(id,tagName,textInside){
